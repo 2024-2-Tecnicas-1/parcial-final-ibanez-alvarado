@@ -1,5 +1,11 @@
 package logicaNegocio;
 
 public abstract class Animal {
-    // TODO: Aquí va tu código
+    abstract String 
+        emitirSonido();
+    abstract String
+        obtenerDieta();
+        
+   
+    
 }
